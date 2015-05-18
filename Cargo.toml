@@ -1,0 +1,11 @@
+[package]
+name = "udev-dl"
+version = "0.0.1"
+authors = ["Corey Richardson <corey@octayn.net>"]
+license = "BSL-1.0"
+description = "libudev interface that loads functions with dlopen"
+repository = "https://github.com/cmr/udev-dl"
+
+[dependencies]
+dylib = "*"
+libc = "*"
